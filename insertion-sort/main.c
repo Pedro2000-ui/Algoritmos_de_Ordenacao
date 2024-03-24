@@ -28,7 +28,7 @@ void insertion_sort(int *lista, int tamanho) {
             
             /*
             * Caso o elemento da esquerda seja maior que o elemento sendo analisado, faço a troca.
-            * Por ser um insertion sort, se eu não fizer uma troca é pq o elemento da esquerda já é menor, então já está ordenado 
+            * Por ser um insertion sort, se eu não fizer uma troca é por que o elemento da esquerda já é menor, então já está ordenado 
             * daquele elemento para trás e com isso não preciso continuar o loop
             */ 
             
@@ -43,7 +43,7 @@ void insertion_sort(int *lista, int tamanho) {
 }
 
 int main() {
-    // Inicialização para geração de números aleatórios em medição de tempo de execução
+    // Inicialização para geração de números aleatórios e medição de tempo de execução
     time_t t;  clock_t tempo; 
     srand((unsigned) time(&t));
 

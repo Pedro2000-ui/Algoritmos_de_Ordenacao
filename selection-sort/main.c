@@ -37,7 +37,7 @@ void selection_sort(int *lista, int tamanho) {
 }
 
 int main() {
-    // Inicialização para geração de números aleatórios em medição de tempo de execução
+    // Inicialização para geração de números aleatórios e medição de tempo de execução
     time_t t;  clock_t tempo; 
     srand((unsigned) time(&t));
 
